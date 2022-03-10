@@ -6832,7 +6832,7 @@ body {
 
 .casino__heading:after, .faq__question:after {
     content: "";
-    background-image: url(https://www.stashbird.com/wp-content/themes/stashbird/img/icons/arrow-down.svg);
+    background-image: url(../../../../../../themes/flipaper/img/icons/arrow-down.svg);
     background-size: 15px;
     background-position: 0;
     display: block;
@@ -7312,11 +7312,11 @@ body {
 }
 
 .pros ul li {
-    background: url(https://www.stashbird.com/wp-content/themes/stashbird/img/icons/pro.svg) no-repeat left center
+    background: url(../../../../../../themes/flipaper/img/icons/pro.svg) no-repeat left center
 }
 
 .cons ul li {
-    background: url(https://www.stashbird.com/wp-content/themes/stashbird/img/icons/con.svg) no-repeat left center
+    background: url(../../../../../../themes/flipaper/img/icons/con.svg) no-repeat left center
 }
 
 .prosAndCons__content .title {
@@ -8340,7 +8340,7 @@ a.post__title:hover {
 }
 
 .nav__toggle {
-    background-image: url(https://www.stashbird.com/wp-content/themes/stashbird/img/icons/navbar.svg);
+    background-image: url(../../../../../../themes/flipaper/img/icons/navbar.svg);
     background-repeat: no-repeat;
     background-color: transparent;
     background-size: 100%;
@@ -8362,7 +8362,7 @@ a.post__title:hover {
 }
 
 .topbar__search {
-    background-image: url(https://www.stashbird.com/wp-content/themes/stashbird/img/icons/search.svg);
+    background-image: url(../../../../../../themes/flipaper/img/icons/search.svg);
     background-size: 25px;
     background-position: center;
     background-repeat: no-repeat;
@@ -8391,7 +8391,7 @@ a.post__title:hover {
 }
 
 .nav__toggle.active {
-    background-image: url(https://www.stashbird.com/wp-content/themes/stashbird/img/icons/cross.svg);
+    background-image: url(../../../../../../themes/flipaper/img/icons/cross.svg);
     background-position: center;
     background-size: 20px
 }
@@ -8525,7 +8525,7 @@ hr {
 }
 
 .content__block.background__image {
-    background-image: url(https://www.stashbird.com/wp-content/themes/stashbird/img/casino-header.jpg);
+    background-image: url(../../../../../../themes/flipaper/img/casino-header.jpg);
     background-repeat: no-repeat;
     background-position: right;
     background-size: cover;
@@ -8953,7 +8953,7 @@ hr {
 
 @media (min-width:768px) {
     .header__top {
-        background-image: url(https://www.stashbird.com/wp-content/themes/stashbird/img/casino-header.jpg);
+        background-image: url(./themes/flipaper/img/casino-header.jpg);
         background-repeat: no-repeat;
         background-position: top;
         background-size: cover
@@ -9247,7 +9247,7 @@ hr {
 }
 
 .topbar__brand img {
-    max-width: 130px
+    max-width: 200px
 }
 
 .sidebar__nav.search form {
