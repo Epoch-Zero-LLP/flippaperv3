@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+}
+
+
+.slideshow {
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+}
+
+.slideshow__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+    font-size: 0;
+    height: 500px;
+    transition: all 0.6s cubic-bezier(0.36, 0.245, 0.155, 0.99);
+}
+
+.slideshow__item {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: inline-block;
+}
+
+.slideshow__image {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.slideshow__nav {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 20;
+    color: #fff;
+    font-size: 1.25em;
+    cursor: pointer;
+    background-color: #000;
+    opacity: 0.5;
+}
+
+.slideshow__nav.is-inactive {
+    opacity: 0.5;
+    cursor: default;
+}
+
+.slideshow__nav.is-active {
+    opacity: 1;
+}
+
+.slideshow__nav svg {
+    display: block;
+}
+
+.slideshow__nav--next {
+    right: 0;
+}
+
+.slideshow__nav--prev {
+    left: 0;
+}
+
+.slideshow__thumbs {
+    position: absolute;
+    bottom: 1em;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 999;
+    display: none;
+}
+
+@media (min-width: 800px) {
+    .slideshow__thumbs {
+        display: block;
+    }
+}
+
+.slideshow__thumbsItem {
+    display: inline-block;
+    width: 120px;
+    height: 75px;
+    background-size: cover;
+    background-position: center;
+    margin: 0 0.5em 0;
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+
+.slideshow__thumbsItem.is-active {
+    opacity: 0.5;
+    cursor: default;
+}
+
+.dotNav {
+    position: absolute;
+    bottom: 1em;
+    left: 50%;
+    z-index: 20;
+    transform: translateX(-50%);
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+@media (min-width: 800px) {
+    .dotNav {
+        display: none;
+    }
+}
+
+.dotNav__item {
+    display: inline-block;
+    line-height: 1;
+    width: 0.875em;
+    height: 0.875em;
+    border-radius: 0.875em;
+    background-color: #fff;
+    margin: 0 0.5em;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+}
+
+.dotNav__item.is-active {
+    opacity: 0.5;
+    cursor: default;
+    scale: 0.9;
+}
